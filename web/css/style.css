@@ -1,0 +1,332 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 25, 2021, 8:39:53 PM
+    Author     : Admin
+*/
+
+
+.wrapper{
+	border:1px solid #000;
+	height: auto;
+	width: 100%;
+	margin:0 auto;
+}
+i.fa.fa-plus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-minus.fa-style {
+    font-size: 20px;
+    color: #000;
+}
+i.fa.fa-plus.fa-style:hover {
+    color: brown;
+}
+i.fa.fa-minus.fa-style:hover {
+    color: brown;
+}
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    float: left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 49%;
+    margin:0 10px;
+}
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.header{
+	background-image: url("../images/logo2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 400px;
+	border:1px solid #000000;
+	height: 300px;
+	width: 100%;
+	
+}
+.menu{
+	border:1px solid #000000;
+	height: 50px;
+	width: auto;
+	background: #0a0a0f;
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 70%;
+    border: 1px solid #;
+    list-style: none;
+    margin: 0 auto;
+    line-height: 27px;
+
+}
+ul.list_menu li:hover {
+    background: burlywood;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #f2f2f2;
+}
+ul.list_menu li {
+    float: left;
+    margin-top: 7px;
+  /*  margin: 5px;*/
+    padding: 5px;
+   
+}
+#main{
+	border:1px solid  #00ff80;
+	height: auto;
+	width: 100%;
+}
+.sidebar{
+    background: #666699;
+	border:1px solid #000066;
+	height: 360px;
+	width: 15%;
+	margin-top:5px;
+	margin-left:5px;
+	float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #;
+    list-style: none;
+    line-height: 27px;
+
+}
+ul.list_sidebar li:hover {
+    background: cadetblue;
+}
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list_sidebar li {
+    margin: 7px;
+    padding: 5px;
+   
+}
+
+
+
+
+.sidebar1{
+    background: #ffff99;
+	border:1px solid #000066;
+	height: 360px;
+	width: 15%;
+	margin-top:5px;
+	margin-left:5px;
+	float: right;
+}
+ul.list_sidebar1 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #;
+    list-style: none;
+    line-height: 27px;
+
+}
+ul.list_sidebar1 li:hover {
+    background: cadetblue;
+}
+ul.list_sidebar1 li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list_sidebar1 li {
+    margin: 7px;
+    padding: 5px;
+   
+}
+
+
+
+.sidebar2{
+    background: #ffff99;
+	border:1px solid #000066;
+	height: 360px;
+	width: 15%;
+	margin-top:5px;
+	margin-left:5px;
+	float: right;
+}
+ul.list_sidebar2 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 1px solid #;
+    list-style: none;
+    line-height: 27px;
+
+}
+ul.list_sidebar2 li:hover {
+    background: cadetblue;
+}
+ul.list_sidebar2 li a {
+    text-decoration: none;
+    text-align: left;
+    color: #3333ff;
+    display: block;
+}
+ul.list_sidebar2 li {
+    margin: 7px;
+    padding: 5px;
+   
+}
+
+
+.maincontent{
+	
+	width: 1000px;
+        height:500px ;
+	margin: 20px auto;
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px;
+        grid-template-rows: 180px 180px;
+        grid-gap:70px;
+}
+.product_list img{
+  width: 180px;
+  height: 180px;
+    }
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+}
+ul.product_list li img {
+    height: 190px;
+
+}
+ul.product_list li {
+    width: 19%;
+    border: 1px solid #ddd;
+    margin: 5px;
+    float: left;
+   
+    height: 300px;
+}
+ul.product_list li a {
+    text-decoration: none;
+}
+ul.product_list li img {
+    width: 100%;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.title_product {
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.haidr{
+    background: #000000;
+}
+.footer{
+	border:1px solid #000000;
+	height: 215px;
+	width: auto;
+	background: #bfbfbf;
+}
+p.footer_copyright {
+    text-align: center;
+    margin-top:2px;
+    color: #000;
+}
+.clear{
+	clear: both;
+}
+
+.admin {
+    width: 700px;
+}
+.adminadmin form {
+    margin-top: .5em;
+}
+.adminadmin label {
+    width: 14em;
+    margin-left: .5em;
+    padding-top: 0.25em;    
+}
+.admin .left_margin {
+    margin-left: 0em;
+}
+
+
+.pad_top {
+    padding-top: 0.25em;
+}
+.no_pad_top {
+    padding-top: 0;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+.no_underline {
+    text-decoration:none;
+}
+
+
+.cart {
+    width: 700px;
+}
+.cart label {
+    float: left;
+    width: 10em;
+    font-weight: bold;
+    padding-top: 0.25em;    
+}
+.cart input[type="text"], input[type="email"], input[type="password"] {
+    float: left;
+    width: 12em;
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+}
+.cart input[type="button"] {
+    margin-left: 0.5em;
+}
+.cart select {
+    margin-left: 0.5em;
+    margin-right: 0.2em;
+}
+.cart_row input[type="text"] {
+    width: 2em;
+    margin-left: 0em;
+}
+.clear_both {
+    clear: both;
+}
+
+
